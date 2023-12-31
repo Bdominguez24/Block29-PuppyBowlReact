@@ -1,0 +1,39 @@
+.player-card-container {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 27%;
+    margin-bottom: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 2px solid #333;
+    padding: 10px;
+   
+  }
+
+  .player-card-container img {
+    max-width: 90%;
+  }
+
+  .player-card-container:hover {
+    background-color: #333;
+    color: white;
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+  }
+
+.details-button {
+    border-radius: 10px;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: 2px solid black
+  }
+
+.details-button:hover {
+    background-color: gray;
+    color: white;
+    transform: scale(1.25);
+    transition: all 0.4s ease;
+  }

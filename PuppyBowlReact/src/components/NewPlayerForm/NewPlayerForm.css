@@ -1,0 +1,21 @@
+.new-player-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    font-weight: bold;
+}
+
+form input {
+    width: 80%;
+    display: block;
+    margin: 5px 0 10px 0;
+}
+
